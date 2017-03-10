@@ -1,0 +1,6 @@
+framework module JKTestPod {
+  umbrella header "JKTestPod-umbrella.h"
+
+  export *
+  module * { export * }
+}

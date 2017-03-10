@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JKTestPod'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JKTestPod.'
+  s.summary          = 'This is my first test'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+                       GOOD JOB!  worry about the indent, CocoaPods strips it!
                        DESC
 
   s.homepage         = 'https://github.com/chenkaixiao/JKTestPod'
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'JKTestPod' => ['JKTestPod/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.public_header_files = 'JKTestPod/Classes/**/*.h'
+   s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end

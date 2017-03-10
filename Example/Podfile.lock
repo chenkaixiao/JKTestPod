@@ -1,0 +1,16 @@
+PODS:
+  - JKTestPod (0.1.0)
+
+DEPENDENCIES:
+  - JKTestPod (from `../`)
+
+EXTERNAL SOURCES:
+  JKTestPod:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JKTestPod: 452ae6af8275c71952359bd551184b85d2f3633f
+
+PODFILE CHECKSUM: 3a752f686be74bc5442b3da8aa7e5d00effba6b8
+
+COCOAPODS: 1.2.0
